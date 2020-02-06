@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1573563303 source:e:\iti - 9 month\oop c++\labs\lab 6 inhritance\setcolorwithinheritance\main.cpp
+	<iostream>
+	"graphics.h"
+	<unistd.h>
+

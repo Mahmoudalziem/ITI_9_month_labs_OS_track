@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>tableWithForm</title>
+   <meta charset='utf-8'>
+   <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+   <link rel='stylesheet' href='style3.css'/>
+   <style>
+      .container{
+          width: 800px;
+          height: 800px;
+          margin-left: 200px;
+          background-color:yellow;
+      }
+      .table{
+          margin-left: 250px;
+          border: 5px solid red;
+          background-color: white;
+      }
+   </style>
+</head>
+<body>
+    <div class="container">
+            <table class="table" border="1">
+                    <caption> Register Form </caption>
+                    <tr>
+                            <td>First Name</td>
+                            <td><input type="text" name='Name'></td>
+                    </tr>
+                    <tr>
+                            <td>Last Name</td>
+                            <td><input type="text" name='Name'></td>
+                    </tr>
+                    <tr>
+                            <td>User Name</td>
+                            <td><input type="text" name='Name'></td>
+                    </tr>
+                    <tr>
+                            <td>pass</td>
+                            <td><input type="password" name='Name'></td>
+                    </tr>
+                    <tr>
+                            <td>Track</td>
+                            <td>
+                                    <select>
+                                            <option value="html"> Html </option>
+                                            <option value="css"> Css </option>
+                                            <option value="js"> JS </option>
+                                            <option value="php"> Php </option>
+                                     </select>
+                            </td>
+                    </tr>
+                    <tr>
+                            <td rowspan="2">Gender</td>
+                            <td><input type="radio" name="gender" value="male"> Male</td>
+                    </tr>
+                    <tr>
+                            <td><input type="radio" name="gender" value="female"> Female</td>
+                    </tr>
+                    <tr>
+                            <td>Favorites</td>
+                            <td>
+                                <input type="checkbox" name="vehicle1" value="football"> football
+                                <input type="checkbox" name="vehicle2" value="basketball"> basketball
+                                <input type="checkbox" name="vehicle3" value="Games" checked> Games<br>
+                                <input type="checkbox" name="vehicle4" value="reading"> reading
+                                <input type="checkbox" name="vehicle5" value="swimming"> swimming
+                                <input type="checkbox" name="vehicle6" value="travel" checked> travel
+                            </td>
+                    </tr>
+                    <tr>
+                            <td>Description</td>
+                            <td><textarea rows="4" cols="25"></textarea></td>
+                    </tr>
+                    <tfoot>
+                    <tr>
+                            <td colspan="2">
+                                <input type="submit" value='Submit' style="margin-left: 80px;">
+                                <input type="reset" value='Reset'>
+                            </td>
+                    </tr>
+                   </tfoot>
+                </table> 
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1572793030 source:e:\iti - 9 month\c course\c labs\lab5 c\boxofnum\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Windows.h>
+

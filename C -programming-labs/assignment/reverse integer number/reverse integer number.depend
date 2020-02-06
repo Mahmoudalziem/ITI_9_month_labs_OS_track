@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1572639903 source:e:\iti - 9 month\c course\c labs\new folder\reverse integer number\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1573691727 source:e:\iti - 9 month\c course\c labs\assignment\reverse integer number\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
