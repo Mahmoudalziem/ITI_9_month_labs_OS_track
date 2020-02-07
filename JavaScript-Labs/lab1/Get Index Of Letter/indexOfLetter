@@ -1,0 +1,12 @@
+var str ="This is javaScript"
+function GetIndex(str)
+{
+    var arr=[];
+     var i;
+    for(i=0 ; i< str.length(); i++)
+    {
+        if(str.charAt(i) == 'i')
+          arr.push(i);
+          return arr;
+    }
+}
