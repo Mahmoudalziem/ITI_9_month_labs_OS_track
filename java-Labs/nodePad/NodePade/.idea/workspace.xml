@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39dc8566-b29c-4172-9fbf-da04d7be7158" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="189" />
+  </component>
+  <component name="ProjectId" id="1WH6ubDvbTH2ZnNhfRtiJUmcWL4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Java labs/NodePade" />
+  </component>
+  <component name="RunManager">
+    <configuration name="NodePade.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/dist/NodePade.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.NodePade.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39dc8566-b29c-4172-9fbf-da04d7be7158" name="Default Changelist" comment="" />
+      <created>1578794396371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578794396371</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578794641195">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="141" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.741@0.0.1366.741" timestamp="1578794641195" />
+    <state x="533" y="261" width="290" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578794419933">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="533" y="261" width="290" height="214" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.741@0.0.1366.741" timestamp="1578794419933" />
+    <state x="466" y="127" width="424" height="482" key="FileChooserDialogImpl" timestamp="1578795006024">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="466" y="127" width="424" height="482" key="FileChooserDialogImpl/0.0.1366.741@0.0.1366.741" timestamp="1578795006024" />
+    <state width="1320" height="168" key="GridCell.Tab.0.bottom" timestamp="1578795007703">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1320" height="168" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1578795007703" />
+    <state width="1320" height="168" key="GridCell.Tab.0.center" timestamp="1578795007702">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1320" height="168" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1578795007702" />
+    <state width="1320" height="168" key="GridCell.Tab.0.left" timestamp="1578795007702">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1320" height="168" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1578795007702" />
+    <state width="1320" height="168" key="GridCell.Tab.0.right" timestamp="1578795007703">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state width="1320" height="168" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1578795007703" />
+    <state x="376" y="197" key="com.intellij.ide.util.TipDialog" timestamp="1578794933916">
+      <screen x="0" y="0" width="1366" height="741" />
+    </state>
+    <state x="376" y="197" key="com.intellij.ide.util.TipDialog/0.0.1366.741@0.0.1366.741" timestamp="1578794933916" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NodePade$NodePade_jar.ic" NAME="NodePade.jar Coverage Results" MODIFIED="1578794949627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/NodePade$.ic" NAME=" Coverage Results" MODIFIED="1578794808726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
