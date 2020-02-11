@@ -1,0 +1,87 @@
+*List the user commands and redirect the output to /tmp/commands.list
+
+[shimaa@localhost redhat1]$ ls -l /usr/bin > /tmp/commands.list
+
+*Count the number of user commands
+
+[shimaa@localhost redhat1]$ wc -l /tmp/commands.list 
+
+*Get all the users names whose first character in their login is ‘g’.
+[shimaa@localhost redhat1]$ cut -f1 -d: /etc/passwd | grep ^g
+
+*Get the logins name and full names (comment) of logins starts with “g”.
+
+[shimaa@localhost redhat1]$ cut -f1,5 -d: /etc/passwd | grep ^g
+
+*Save the output of the last command sorted by their full names in a file.
+
+[shimaa@localhost redhat1]$ cut -f1,5 -d: /etc/passwd | grep ^g |sort -k2
+
+*Write two commands: first: to search for all files on the system that named .bash_profile. 
+
+[shimaa@localhost redhat1]$ find / -name .bash_profile
+
+
+*Second: sorts the output of ls command on / recursively, Saving
+their output and error in 2 different files and sending them to the background.
+
+[shimaa@localhost redhat1]$ ls -R / 2> file2  | sort > file1  &
+
+
+7*Display the number of users who is logged now to the system.
+
+*Display lines 7 to line 10 of /etc/passwd file
+
+[shimaa@localhost redhat1]$ head -n10 /etc/passwd |tail -n4 
+
+
+*What happens if you execute:
+-cat filename1 | cat filename2
+
+print the content of file2 only
+- ls | rm
+
+- ls /etc/passwd | wc –l
+
+[shimaa@localhost redhat1]$ ls /etc/passwd | wc -l
+1
+
+*Issue the command 
+sleep 100.
+stopped terminal 100 s
+
+*Stop the last command.
+
+ctrl+z
+
+*Resume the last command in the background
+
+[shimaa@localhost redhat1]$ kill -SIGCONT %1
+
+*Issue the jobs command and see its output.
+[shimaa@localhost redhat1]$ jobs
+[1]+  Running                 sleep 5000 &
+
+*Send the sleep command to the foreground and send it again to the background.
+
+[shimaa@localhost redhat1]$ fg %1
+
+[shimaa@localhost redhat1]$ bg %1
+
+*Kill the sleep command.
+
+[shimaa@localhost redhat1]$ kill -KILL %1
+
+*Display your processes only
+
+
+[shimaa@localhost redhat1]$ ps  -f -u 1000
+
+*Display all processes except yours
+
+[shimaa@localhost redhat1]$ ps -d
+            ps -e -f | grep ^v shimaa
+*Use the pgrep command to list your processes only
+          pgrep -l -u 1000
+*Kill your processes only.
+

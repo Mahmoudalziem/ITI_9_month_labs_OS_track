@@ -1,0 +1,72 @@
+1. Using vi write your CV in the file mycv. Your CV should include your name, age, school, college, experience,...
+
+[shimaa@localhost ~]$ gedit shimaaLab3
+[shimaa@localhost ~]$ touch mycv
+[shimaa@localhost ~]$ vi mycv
+[shimaa@localhost solutionLab3]$ cat mycv
+myName : shimaa abd el azim
+age : 26
+college : computer sciense
+
+2. Open mycv file using vi command then: Without using arrows state how to:
+a. Move the cursor down one line at time.
+press on j
+
+b. Move the cursor up one line at time.
+press on k
+
+c. Search for word age
+/age
+
+d. Step to line 5 (assuming that you are in line 1 and file is more than 5 lines).
+5G
+
+e. Delete the line you are on and line 5.
+dd 5G dd
+
+f. How to step to the end of line and change to writing mode in one-step.
+
+A
+
+3. List the available shells in your system. cat /etc/shells
+
+[shimaa@localhost solutionLab3]$ 
+
+4. List the environment variables in your current shell.
+env,printenv
+
+5. List all of the environment variables for the bash shell.
+man bash
+
+6. What are the commands that list the value of a specific variable?
+[shimaa@localhost solutionLab3]$ echo $PWD
+[shimaa@localhost solutionLab3]$ 
+[shimaa@localhost solutionLab3]$ printenv
+
+7. Display your current shell name.
+
+[shimaa@localhost solutionLab3]$ echo $SHELL
+
+8. State the initialization files of: sh, ksh, bash.
+ bash 
+global /etc/profile 
+init   /home/user/.bash_profile
+startup ~/.bashrc
+
+9. Edit in your profile to display date at login and change your prompt permanently.
+ 
+
+vi ~/.bashrc
+PS1="shimaa??"     prompet
+PS2=":"
+date
+
+10. Execute the following command : echo \ then press enter
+What is the purpose of \ ?
+Notice the prompt ”>” what is that? and how can you change it from “>” to “:”.
+
+11. Create a Bash shell alias named ls for the “ls –l” command
+
+
+alias lll='ls -l'
+

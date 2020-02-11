@@ -1,0 +1,104 @@
+1. Create a user account with the following attribute
+
+[shimaa@192 ~]$ sudo useradd  -c "islam Asker" -md /home/islam -s /bin/bash islam
+sudo passwd islam
+
+
+
+2.Create a user account with the following attribute
+
+[shimaa@192 ~]$ sudo useradd -c "Bad User" -md /home/baduser -s /bin/bash baduser
+sudo passwd baduser
+
+3.Create a supplementary (Secondary) group called pgroup with group ID of 30000
+
+[shimaa@192 ~]$ sudo groupadd pgroup -g 30000
+
+4.Create a supplementary group called badgroup
+
+[shimaa@192 ~]$ sudo groupadd badgroup
+
+5.Add islam user to the pgroup group as a supplementary gro
+
+[shimaa@192 ~]$ sudo usermod -aG pgroup islam
+
+6.Modify the password of islam's account to password
+
+[shimaa@192 ~]$ sudo passwd islam
+
+7.Modify islam's account so the password expires after 30 days
+
+[shimaa@192 ~]$ sudo passwd -x 30 islam
+                sudo chage -E 2020-7-8 islam
+8.Lock bad user account so he can't log in
+
+[shimaa@192 ~]$ sudo usermod -L  baduser
+
+9.Delete bad user account
+
+[shimaa@192 ~]$ sudo usermod -U  baduser
+
+10. Delete the supplementary group called badgroup
+
+[shimaa@192 ~]$ sudo groupdel badgroup
+
+13. Create a folder called myteam in your home directory and change its permissions to
+read only for the owner.
+
+[shimaa@192 ~]$ mkdir myteam
+
+[shimaa@192 ~]$ sudo chmod 400 myteam
+
+14. Log out and log in by another user
+
+[shimaa@192 ~]$ sudo su - islam
+
+15. Try to access (by cd command) the folder (myteam)
+
+[islam@192 ~]$ cd /home/shimaa/myteam
+-bash: cd: /home/shimaa/myteam: Permission denied
+
+16. Using the command Line:
+*Change the permissions of oldpasswd file to give owner read and write permissions and for group write and execute and execute only for the others
+(using chmod in 2 different ways)
+
+[islam@192 ~]$ exit
+
+[shimaa@localhost ~]$ sudo chmod 631 oldpass
+[shimaa@localhost ~]$ sudo chmod u=rw,g=wx,o=x oldpass
+
+
+
+
+*Change your default permissions to be as above.
+[shimaa@localhost ~]$ umask 146
+ 
+* What is the maximum permission a file can have, by default when it is just created? And what is that for directory.
+
+666 files , 777 directory
+
+
+umask 000
+file rw
+dir rwx
+
+*Change your default permissions to be no permission to everyone then create a directory and a file to verify.
+
+[shimaa@localhost ~]$ umask 777
+
+[shimaa@localhost ~]$ mkdir test2
+[shimaa@localhost ~]$ touch f2
+
+
+
+
+
+
+
+
+
+
+
+
+
+

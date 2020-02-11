@@ -1,0 +1,107 @@
+1. Compress a file by compress, gzip, zip commands and decompress it again. State the
+differences between compress and gzip commands.
+
+
+[shimaa@localhost ~]$ tar cvf file.tar f1 f2
+
+[shimaa@localhost ~]$ du -sh file.tar
+12K	file.tar
+
+[shimaa@localhost ~]$ compress -v file.tar
+file.tar:  -- replaced with file.tar.Z Compression: 97.15%
+
+[shimaa@localhost ~]$ du -sh file.tar.Z
+4.0K	file.tar.Z
+
+[shimaa@localhost ~]$ uncompress -v file.tar.Z
+file.tar.Z:  -- replaced with file.tar
+
+[shimaa@localhost ~]$ gzip file.tar
+
+[shimaa@localhost ~]$ du -sh file.tar.gz
+4.0K	file.tar.gz
+
+[shimaa@localhost ~]$ gunzip file.tar.gz
+
+[shimaa@localhost ~]$ du -sh file.tar.bz2
+4.0K	file.tar.bz2
+
+[shimaa@localhost ~]$ bunzip2 file.tar.bz2
+
+[shimaa@localhost ~]$ zip file.zip f1 f2
+
+[shimaa@localhost ~]$ unzip file.zip
+
+2. What is the command used to view the content of a compressed file.
+zcat
+
+3. Backup /etc directory using tar utility.
+ 
+[shimaa@localhost ~]$ tar cvf dir.tar /etc
+
+4. Starting from your home directory, find all files that were modified in the last two day.
+
+[shimaa@localhost ~]$ find /home/shimaa -mtime -2
+
+5.Starting from /etc, find files owned by root user.
+
+[shimaa@localhost ~]$ find /etc -type f -user root 
+
+6. Find all directories in your home directory.
+
+
+[shimaa@localhost ~]$ find /home/shimaa -type d
+
+7. Write a command to search for all files on the system that, its name is “.profile”.
+
+[shimaa@localhost ~]$ locate .profile
+
+8. Identify the file types of the following: /etc/passwd, /dev/pts/0, /etc, /dev/sda
+
+[shimaa@localhost ~]$ file /etc/passwd
+/etc/passwd: ASCII text
+[shimaa@localhost ~]$ file /dev/pts/0
+/dev/pts/0: character special
+[shimaa@localhost ~]$ file /etc  /dev/sda
+/etc:     directory
+/dev/sda: block special
+
+9. List the inode numbers of /, /etc, /etc/hosts.
+[shimaa@localhost ~]$ ls -id /
+2 /
+
+[shimaa@localhost ~]$ ls -id /etc
+262145 /etc
+
+[shimaa@localhost ~]$ ls -i /etc/hosts
+262212 /etc/hosts
+
+
+10. Copy /etc/passwd to your home directory, use the commands diff and cmp, and Edit in the
+file you copied, and then use these commands again, and check the output.
+
+[shimaa@localhost ~]$ diff f1 f2
+1,2c1,2
+< kjdkkkkkkkkkkkkkkkkkk
+< dddddddddddddddd
+---
+> shimaa
+> 23
+
+[shimaa@localhost ~]$ cmp f1 f2
+f1 f2 differ: byte 1, line 1
+
+11. Create a symbolic link of /etc/passwd in /boot.
+
+[shimaa@localhost ~]$ sudo ln -s /etc/passwd /boot
+
+12. Create a hard link of /etc/passwd in /boot. Could you? Why?
+
+different partition 
+
+
+
+
+
+
+
