@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab1 - Music Player</title>
+</head>
+<body>
+<div id="mp-app">
+	<div id="mp-player">
+		<audio id="audio-player" controls>
+		</audio>
+	</div>
+	<div id="mp-options">
+		<input type="button" id="mp-play-mode" value="Play">
+		<input type="button" id="mp-shuffle-mode" value="Shuffle">
+		<input type="button" id="mp-repeat-mode" value="Repeat">
+		<input type="button" id="mp-pause-mode" value="Pause">
+	</div>
+	<div id="mp-audio-list">
+		<input type="file" id="al-add" value="Add">
+		<div id="al-list"></div>
+	</div>
+</div>
+<script src="music-player.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>SVG Tutorial</title>
+	<style>
+		body{
+			margin:100px auto;
+			text-align: center;
+		}
+		canvas{
+			border:1px solid #0000ff;
+
+		}
+		.hide{
+			display:none;
+		}
+		input[type="number"]{
+			width:75px;
+		}
+	</style>
+</head>
+<body>
+	
+	<div id="dashboard">
+		<input type="button" value="Line" class="control-btn" id="ab-line">
+		<input type="button" value="Rect" class="control-btn" id="ab-rect">
+		<input type="button" value="Circle" class="control-btn" id="ab-circle">
+		<input type="button" value="Clear" class="control-btn" id="ab-clear">		
+	</div>
+
+<canvas id="my-canvas" width="600" height="450">
+
+ </canvas>
+
+	<script src="js/generate-shapes.js"></script>
+</body>
+</html>
