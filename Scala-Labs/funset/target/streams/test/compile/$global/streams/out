@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/salmakhater/WorkSpace/iti/scala-2019/labs/funset/src/test/scala/funsets/FunSetSuite.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/salmakhater/WorkSpace/iti/scala-2019/labs/funset/src/test/scala/funsets/FunSetSuite.scala:7:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.junit.JUnitRunner[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/salmakhater/WorkSpace/iti/scala-2019/labs/funset/src/test/scala/funsets/FunSetSuite.scala:16:27: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass FunSetSuite extends FunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/salmakhater/WorkSpace/iti/scala-2019/labs/funset/src/test/scala/funsets/FunSetSuite.scala:15:18: not found: type JUnitRunner[0m
+[0m[[0m[31merror[0m] [0m[0m@RunWith(classOf[JUnitRunner])[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/salmakhater/WorkSpace/iti/scala-2019/labs/funset/src/test/scala/funsets/FunSetSuite.scala:53:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("contains is implemented") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/salmakhater/WorkSpace/iti/scala-2019/labs/funset/src/test/scala/funsets/FunSetSuite.scala:89:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("singletonSet(1) contains 1") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/salmakhater/WorkSpace/iti/scala-2019/labs/funset/src/test/scala/funsets/FunSetSuite.scala:104:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("union contains all elements of each set") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m

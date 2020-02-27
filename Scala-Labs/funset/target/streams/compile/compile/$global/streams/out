@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/shimaa/Desktop/Scala/labs/day2/lab2/funset/src/main/scala/funsets/FunSets.scala:31:37: identifier expected but 'if' found.[0m
+[0m[[0m[31merror[0m] [0m[0m      return (elem: Int):Boolean => if(contains(s , elem) || contains(t , elem))[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shimaa/Desktop/Scala/labs/day2/lab2/funset/src/main/scala/funsets/FunSets.scala:41:38: identifier expected but 'if' found.[0m
+[0m[[0m[31merror[0m] [0m[0m       return (elem: Int):Boolean => if(contains(s , elem) && contains(t , elem))[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shimaa/Desktop/Scala/labs/day2/lab2/funset/src/main/scala/funsets/FunSets.scala:51:38: identifier expected but 'if' found.[0m
+[0m[[0m[31merror[0m] [0m[0m       return (elem: Int):Boolean => if (!(contains(s , elem)) && contains(t , elem))[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shimaa/Desktop/Scala/labs/day2/lab2/funset/src/main/scala/funsets/FunSets.scala:59:37: ';' expected but '(' found.[0m
+[0m[[0m[31merror[0m] [0m[0m     return (elem: Int):Boolean => s(elem) && p(elem)[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/shimaa/Desktop/Scala/labs/day2/lab2/recfun/src/main/scala/recfun/Main.scala:52:5: Missing closing brace `}' assumed here[0m
+[0m[[0m[31merror[0m] [0m[0m    if (money < 0 || coins.isEmpty) 0[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

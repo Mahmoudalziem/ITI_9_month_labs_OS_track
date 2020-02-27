@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12bb7cb2-7b8b-41d2-a04e-b615046d6712" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1YB5KxwiydxKd3DnGQidU5yOKzz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="funset" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="funset [file:/Users/salmakhater/WorkSpace/iti/scala-2020/labs/lab2/funset/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="funset-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section3/code/actor-paths" value="1445638558000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section3/code/hotswap-behavior" value="1437333096000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section3/code/routing" value="1437333058000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section4/code/persistence" value="1445711397000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section4/code/persistent-fsm" value="1445711397000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section4/code/persistent-fsm&amp;query" value="1446198441000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section5/code/akka-cluster" value="1450729504000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section5/code/akka-remoting" value="1438440510000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section6/code/multi-node-testing" value="1451046082000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section6/code/test-FSM" value="1439649842000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section6/code/testing-actors" value="1446283587000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section6/code/testing-parent-child" value="1446240178000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section7/code/akka-streams" value="1440875352000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section7/code/graph-flows" value="1440959298000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section7/code/reactive-tweets" value="1440905724000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section7/code/stream-io" value="1440959298000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section7/code/stream-test" value="1441057038000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section8/code/akka-http-client-side-api" value="1441560084000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section8/code/akka-http-server-side-api" value="1441560084000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section8/code/rest-api" value="1442051444000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section9/code /balancing-workload" value="1442348606000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section9/code /ordered-termination" value="1442658674000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section9/code /scheduler-messages" value="1442658674000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section9/code /shutdown-pattern" value="1442658674000" />
+        <entry key="$USER_HOME$/Documents/Learning Akka/Course-Version2/section9/code /throttler-messages" value="1442658674000" />
+        <entry key="$PROJECT_DIR$/../../../../../Akka Course/Hello Akka" value="1447962634000" />
+        <entry key="$PROJECT_DIR$/../../../../../Akka Course/playing-with-actors" value="1436612650000" />
+        <entry key="$PROJECT_DIR$/../../../../microservice/try/hello" value="1493875172000" />
+        <entry key="$PROJECT_DIR$" value="4689617431513" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3216959491" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="0" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/mc-retailers-sys" value="1447882072000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/orkestra" value="1460529255000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/orkestra/Maestro2.0" value="1461405460000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/orkestra/access-service" value="1476985953000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/orkestra/ad-http" value="1468347986000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/orkestra/engine-caching" value="1476786511000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/orkestra/offers" value="1469818614000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/orkestra/orkestra-internal-protocol" value="1469824345000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/orkestra/publisher" value="1469959048000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/orkestra/tracking" value="1465848497000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/orkestra/users-service" value="1472543561000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/tracking-reporting/reporting-api" value="1490772568000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/tracking-reporting/tracking-api" value="1487232226000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/tracking-reporting/tracking-enricher" value="1489000319000" />
+        <entry key="$PROJECT_DIR$/../../../../../mena/tracking-reporting/tracking-indexer" value="1487949306000" />
+        <entry key="$PROJECT_DIR$/../../../../../salma/troy" value="1473866966000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../../elmenus/elmenus-discovery-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../../elmenus/elmenus-order-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../scala-2019/labs/day2" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12bb7cb2-7b8b-41d2-a04e-b615046d6712" name="Default Changelist" comment="" />
+      <created>1582403087015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582403087015</updated>
+    </task>
+    <servers />
+  </component>
+</project>
