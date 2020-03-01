@@ -1,0 +1,92 @@
+1 - Open mongo shell and view the help :
+	
+        $ mongo
+
+	$ db.help()
+
+2-identify your current working database and show list of available databases:
+
+	$ db
+
+	$ show dbs
+
+3- Create a new database called “Facebook” and use it :
+
+	$ use Facebook
+
+4- Create Collection with name “posts” which has facebook post properties:
+	[“post_text”,”images”,”likes”,”comments”,
+	”Datetime”,”owner”,”live”]
+
+	$ db.createCollection("posts")
+
+5- Create Capped Collection with name users with Size 5 MB ,10 users Maximum and must has username field “String”and email end with “@gmail.com” :
+
+	$ db.createCollection("users",{capped:true,size:500000,max:10,validator:{$and:[{username:{$type:"string"}},{email:{$regex:/@gmail\.com$/ }}]}})
+
+6-Insert 20 post “ordered Insert” :
+
+	$ db.posts.insert({"_id" :1,"post_text":"html","images":"img","likes":"7","comments":"this is html course","Datetime":"2-4-2019","owner":"shimaa","live":"fun"})
+
+
+7- Insert 10 users :
+
+	$ db.users.insert({"_id":1,"username":"ali","email":"ali@gmail.com"})
+
+9- Display all users :
+
+	$ db.users.find()
+
+10- Display user “Mohamed” posts :
+
+	$ db.posts.find({"owner":"Mohamed"},{})
+
+
+11- Update Mohamed ‘s posts set likes 10000 :
+
+	$ db.posts.update({"owner":"Mohamed"},{$set:{likes:10000}},{multi:true})
+
+
+12- delete Mohamed ‘s posts :
+
+	$ db.posts.remove({"owner":"Mohamed"})
+
+
+13- Select products with price less than 1000 or greater than 5000 :
+
+	$ db.products.find({$or:[{price:{$lt:1000}},{price:{$gt:5000}}]})
+
+
+14- Select products where name field contains at least one element that starts with LG , To ,Sa :
+
+   
+	$ db.products.find({name:{$in:[/^LG/,]}})
+
+ 
+
+15- Select products where the stock field value is an array and should contain numbers 99 , 999 :
+
+	$ db.products.find({stock:{$all:[99,999]}})
+
+
+16- Select products with stock field contains value is greater than 99 :
+
+	$ db.products.find({stock:{$elemMatch:{$gt:99}}})
+
+17- Select products where stock field contains 3 elements :
+
+        $ db.products.find({stock:{$size:3}})
+
+
+18- Select products where vendor is not Apple , Sony, LG or HP :
+
+	$ db.products.find({vendor:{$nin:['Apple','Sony','LG','HP']}})
+
+
+19- Select products where the price field is not exists :
+
+	$ db.products.find({price:{$exists:false}},{})
+
+
+
+

@@ -1,0 +1,93 @@
+1- Display products which available in 4 stocks at the same time:
+
+	$ db.products.find({stock:{$size:4}})
+
+2- Increase all products by 500 EGP:
+
+	$ db.products.update({},{$inc:{price:500}}, {multi:1})
+
+3- Replace stock #40 with #60 in all products:
+
+	$ db.products.update({stock:40},{$set:{stock.$:60}}, {multi:1})
+
+4- Remove stock 70 from all products :
+
+	$ db.products.update({},{$unset:{stock:70}}, {multi:1})
+
+
+5- Display only product name and vendor phone number:
+
+	$ db.products.find({},{"name":1,"vendor.phone":1,"_id":0})
+
+
+6- Rename vendor filed to shop :
+  
+	$ db.products.update({},{$rename:{"vendor":"shop"}}, {multi:1})
+
+
+7- nsert new document with name vodafone , category, price and quantity fields if the price is less than 100:
+
+	$ db.products.update({price:{$lt:100}},{$setOnInsert:{"name":"vodafone","category":"Laptop","price":1600,"quantity":5}},{multi:1,upsert:1})
+
+
+8- Display number of products per category :
+
+	$ db.products.aggregate([{$group:{_id:"$category",number:{$sum:1}}}])
+
+9-Display max category products price :
+
+	$ db.products.aggregate([{$group:{_id:"$category",max_price:{$max:"$price"}}}])
+
+10-Display the most expensive product :
+
+	$ db.products.aggregate([{$group:{_id:"$category",max_price:{$max:"$price"}}},{$sort:{max_price:-1}},{$limit:1}])
+
+
+11- Import Blog Database using this command in terminal=>
+
+    mongorestore --db Blog path_to_Blog_folder:
+  
+	$ mongorestore --db Blog /home/shimaa/Desktop/mongoDB/lec2/Blog
+
+
+12- Create text index for post content field :
+
+	$ db.post.createIndex({content:"text"})
+
+13- Retrieve all posts which have “hello” word :
+
+	$ db.posts.find({"content":{$in:[/hello/]}})
+
+14- Retrieve all posts which have not “hello” word :
+
+	$ db.posts.find({"content":{$not:{$nin:[/hello/]}}})
+
+15- Export Blog database :
+
+	$ mongodump --db Blog --out /home/shimaa/Desktop/mongoDB/lec2/export-blog/ 
+
+
+16- Drop blog database :
+
+	$ db.dropDatabase()
+
+
+17- What is the maximum number of Indexes per collection
+allowd?
+
+	collection cannot have more than 64 indexes.
+
+
+
+18- What is the maximum size of an Index key?
+
+	The length of the index name cannot be longer than 125 characters.
+
+
+19- Mention the command to list all the indexes on a particular collection :
+
+	$ db.collection.getIndexes()
+
+
+
+
